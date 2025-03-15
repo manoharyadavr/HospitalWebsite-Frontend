@@ -17,7 +17,7 @@ const Appointments = () => {
     console.log("Submitting Data:", formData); // ✅ Log data before sending
 
     try {
-      const response = await axios.post("https://hospitalwebsite-backend.onrender.com//api/appointments", formData, {
+      const response = await axios.post("https://hospitalwebsite-backend.onrender.com/api/appointments", formData, {
         headers: { "Content-Type": "application/json" },
       });
 
