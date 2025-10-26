@@ -16,7 +16,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img src="https://img.freepik.com/free-vector/hospital-logo-green-blue_1043-66.jpg?t=st=1761470248~exp=1761473848~hmac=38afd7e54f06302141002011f69fbfb20fe9b36a50e88f6e168e5ca57f298fe7&w=1480"
-             alt="Hospital Logo" className="h-20 w-auto rounded" />
+             alt="Hospital Logo" className="h-14 w-auto rounded" />
           </Link>
 
           {/* Desktop Menu */}
